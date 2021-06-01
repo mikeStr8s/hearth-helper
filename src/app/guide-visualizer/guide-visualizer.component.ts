@@ -11,8 +11,6 @@ export class GuideVisualizerComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    this.guide_data = ""
-  }
+  ngOnInit(): void { }
 
 }

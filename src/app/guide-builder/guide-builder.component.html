@@ -1,1 +1,9 @@
-<app-guide-visualizer></app-guide-visualizer>
+<div class="container">
+    <div class="configurator">
+        <button (click)='loadGuideData()'>Load Data</button>
+        <textarea>{{ guide_data }}</textarea>
+    </div>
+    <div>
+        <app-guide-visualizer></app-guide-visualizer>
+    </div>
+</div>
